@@ -1,7 +1,12 @@
 import React from "react";
+import LoginForm from "../(components)/LoginForm";
 
 const CreateUser = () => {
-  return <div>CreateUser</div>;
+  return (
+    <div>
+      <LoginForm />
+    </div>
+  );
 };
 
 export default CreateUser;
